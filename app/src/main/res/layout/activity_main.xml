@@ -7,12 +7,19 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/idAndroidTextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Welcome to Android"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <Button
+        android:id="@+id/buttonclickme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clickme"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="322dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
